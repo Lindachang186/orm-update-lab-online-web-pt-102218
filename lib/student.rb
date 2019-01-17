@@ -71,7 +71,7 @@ class Student
       self.new_from_db(row)
     end.first
   end
-end
+
 
 def update
   sql= "UPDATE students SET name ?, SET grade ?, WHERE ID = ?"
